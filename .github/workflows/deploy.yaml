@@ -8,7 +8,7 @@ on:
   schedule:
     - cron: "0 12 * * *"
   workflow_dispatch:
-    
+
 
 jobs:
   submit_report:
@@ -28,5 +28,4 @@ jobs:
     - name: Run
       run: |
         python3 spider.py
-      env:
 
