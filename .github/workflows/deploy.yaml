@@ -4,7 +4,7 @@
 name: TsinghuaDaily Report
 
 on:
-  # 每天北京时间 10点整 (utc+8)自动运行
+  # 每天北京时间 22点整 (utc+8)自动运行
   schedule:
     - cron: "0 12 * * *"
 
@@ -26,3 +26,5 @@ jobs:
     - name: Run
       run: |
         python3 spider.py
+      env:
+
