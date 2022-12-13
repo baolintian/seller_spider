@@ -37,7 +37,7 @@ pattern = '<td> (.*?)套</td>'
 chengjiao = re.search(pattern, response.text).group(1)
 print(chengjiao)
 
-url = "https://sctapi.ftqq.com/SCT95173TfVp7VkcUucjh5vDkFA7m6huH.send?title=\"{}\"".format("【越江时代】今日认购{}，今日成交{}".format(rengou, chengjiao))
+url = "https://sctapi.ftqq.com/SCT187578TzNBx8qc2wcyOowLpyuNTKy2I.send?title=\"{}\"".format("【越江时代】今日认购{}，今日成交{}".format(rengou, chengjiao))
 print(url)
 payload={}
 headers = {}
