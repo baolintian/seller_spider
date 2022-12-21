@@ -6,7 +6,7 @@ name: TsinghuaDaily Report
 on:
   # 每天北京时间 22点整 (utc+8)自动运行
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "0 14 * * *"
   workflow_dispatch:
 
 
